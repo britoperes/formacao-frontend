@@ -1,0 +1,38 @@
+#banner{
+    width: 100%;
+}
+.tituloprincipal{
+    padding-left: 20px;
+}
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+.titulocentralizado{
+    text-align: center;
+}
+#missao{
+    font-size: 20px;
+}
+em strong{
+    color: red;
+}
+.beneficios{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+ul{
+    display:inline-block; 
+    /*  Inline - toma a linha inteira
+        Block - se encaixa do lado dos outros conteudos, mas nao permite mexer com espaçamentos
+        inline-block - se encaixa do lado dos outros conteudos e permite alteração de espaçamentos */
+        vertical-align: top;
+        width:20%;
+        margin-right:15%;
+}
+.itens{
+    font-style: italic;
+}
+.imagembeneficios{
+    width: 50%;
+}
