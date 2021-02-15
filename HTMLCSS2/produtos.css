@@ -24,6 +24,10 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
 /* 
     position: static - o elemento nasce de acordo com o html
     position: relative - o elemento pode ter a sua posição alterada de acordo com a sua localização no html
@@ -45,6 +49,18 @@ nav a{
     /* box-sizing: border-box - nesse caso, quando determinamos o width em 30% mais um padding, por padrão o CSS soma esses valores. Com o border-box, o CSS entende que o padding já está dentro desses 30%. */
     border: 2px #000000 solid;
     border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: #C78C19;
+    /* transition-duration: 0.1s; */
+}
+.produtos li:hover h2{
+    /* transition-duration: 0.3s; */
+    font-size: 34px;
+}
+.produtos li:active{
+    border-color: #088C19;
+    /* transition-duration: 0.1s; */
 }
 .produtos h2{
     font-size: 30px;
