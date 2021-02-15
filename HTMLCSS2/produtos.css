@@ -3,7 +3,7 @@ header{
     padding:20px 0;
 }
 .caixa{
-    margin: 0 auto;
+    margin: 0 auto; /*deixou os elementos filhos centralizados*/
     position: relative; 
     /* ta com relative, pra tabela que é absoluta, 'entrar' na caixa */
     width: 940px;
