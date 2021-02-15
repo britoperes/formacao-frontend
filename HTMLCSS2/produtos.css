@@ -1,5 +1,17 @@
 header{
     background-color: #BBBBBB;
+    padding:20px 0;
+}
+.caixa{
+    margin: 0 auto;
+    position: relative; 
+    /* ta com relative, pra tabela que é absoluta, 'entrar' na caixa */
+    width: 940px;
+}
+nav{
+    position:absolute;
+    top:110px;
+    right:0;
 }
 nav li{
     display: inline;
@@ -13,10 +25,7 @@ nav a{
     text-decoration: none;
 }
 /* 
-
-deixar os itens do menu em capslock pelo css (text-transform)
-deixar os itens pretos
-deixar os itens com peso de fonte como bold
-altura dos itens em 22px
-deixar o text-decoration dos itens como none
-margin dos li como 0 0 0 15px */
+    position: static - o elemento nasce de acordo com o html
+    position: relative - o elemento pode ter a sua posição alterada de acordo com a sua localização no html
+    position: absolute - o elemento pode ter sua localização alterada de acordo com o documento inteiro, desprezando o html
+*/
