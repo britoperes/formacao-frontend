@@ -1,17 +1,12 @@
-body{
-    margin: 0;
-}
-#banner{
-    width: 100%;
-}
 header{
     background-color: #BBBBBB;
-    padding: 20px 0;
+    padding:20px 0;
 }
 .caixa{
-    width:940px;
-    margin: 0 auto;
-    position:relative;
+    margin: 0 auto; /*deixou os elementos filhos centralizados*/
+    position: relative; 
+    /* ta com relative, pra tabela que é absoluta, 'entrar' na caixa */
+    width: 940px;
 }
 nav{
     position:absolute;
@@ -19,66 +14,73 @@ nav{
     right:0;
 }
 nav li{
-    display:inline;
-    padding: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 nav a{
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
     text-transform: uppercase;
+    color:#000000;
     font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 nav a:hover{
-    /* text-decoration: underline; */
     color: #C78C19;
-    transition-duration: 0.1s;
+    text-decoration: underline;
 }
-
-
-.principal{
-    background-color: #CCCCCC;
-    padding: 30px;
+/* 
+    position: static - o elemento nasce de acordo com o html
+    position: relative - o elemento pode ter a sua posição alterada de acordo com a sua localização no html
+    position: absolute - o elemento pode ter sua localização alterada de acordo com o documento inteiro, desprezando o html
+*/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
-.titulocentralizado{
+.produtos li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box; 
+    /* box-sizing: border-box - nesse caso, quando determinamos o width em 30% mais um padding, por padrão o CSS soma esses valores. Com o border-box, o CSS entende que o padding já está dentro desses 30%. */
+    border: 2px #000000 solid;
+    border-radius: 10px;
 }
-#missao{
-    font-size: 20px;
+.produtos li:hover{
+    border-color: #C78C19;
+    /* transition-duration: 0.1s; */
 }
-em strong{
-    color: red;
+.produtos li:hover h2{
+    /* transition-duration: 0.3s; */
+    font-size: 34px;
 }
-.beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
+.produtos li:active{
+    border-color: #088C19;
+    /* transition-duration: 0.1s; */
 }
-.beneficios ul{
-    display:inline-block; 
-    /*  Inline - toma a linha inteira
-        Block - se encaixa do lado dos outros conteudos, mas nao permite mexer com espaçamentos
-        inline-block - se encaixa do lado dos outros conteudos e permite alteração de espaçamentos */
-        vertical-align: top;
-        width:20%;
-        margin-right:15%;
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
 }
-.itens{
-    font-style: italic;
+.produto-descricao{
+    font-size:18px;
 }
-.imagembeneficios{
-    width: 50%;
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
-
 footer{
+    text-align: center;
     background: url(./img/bg.jpg);
     padding: 40px 0;
-    text-align: center;
 }
-footer img{
-    margin: 0 auto;
-}
-footer p{
-    padding-top: 20px;
-    color: white;
+.copyright{
+    color: #FFFFFF;
     font-size: 13px;
+    margin-top: 20px;
 }
