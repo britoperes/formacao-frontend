@@ -121,3 +121,16 @@ form label, form legend{
     background-color: darkorange;
     transform: scale(1.2); /*poderia usar o rotate(Xdeg) pra rodar o elemento*/
 }
+table{
+    margin: 20px 0;
+
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+th, td{
+    border: 1px solid #000000;
+    padding: 8px 15px; 
+}
