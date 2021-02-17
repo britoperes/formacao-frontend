@@ -6,8 +6,8 @@ O repositório tem como objetivo guardar as anotações e documentos criados ao 
 |-----|-----|-----|
 |HTML5 e CSS3 - Parte 1|:white_check_mark:|[Link do certificado](https://cursos.alura.com.br/certificate/889f660d-7850-4e4f-871b-7d1d5774eac4)|
 |HTML5 e CSS3 - Parte 2|:white_check_mark:|[Link do certificado](https://cursos.alura.com.br/certificate/73d9c58b-f7fe-4c25-bad8-72ecac4d08bf)|
-|HTML5 e CSS3 - Parte 3|:construction:||
-|HTML5 e CSS3 - Parte 4|:x:||
+|HTML5 e CSS3 - Parte 3|:white_check_mark:|https://cursos.alura.com.br/certificate/0ed23bba-5163-48c4-8b55-6fedcf6aad3f|
+|HTML5 e CSS3 - Parte 4|:construction:||
 |Acessibilidade web - Parte 1|:x:||
 |Javascript - Primeiros passos|:x:||
 |Javascript - Programando a OO|:x:||
