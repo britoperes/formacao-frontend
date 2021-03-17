@@ -25,3 +25,30 @@ Ex.: img ~ p {
 -':not(condições)
 Exclui todos os elementos que atendem as condições definidas
 Ex.:
+
+-calc(operação)
+Faz o CSS calcular o valor de uma determinada propriedade
+Ex.: item{
+    width: calc(20% - 24px);
+}
+
+#Aula 5
+- opacity
+Determina a opacidade de um item, e fica entre 1 e 0
+
+-rgba(r,g,b,a)
+Determina alem das cores, a sua opacidade (no a de alpha)
+
+-box-shadow
+Determina a sombra que será aplicada em um elemento
+Ex.: elemento{
+    box-shadow: posição.X posição.Y blur espalhado #COR, segunda sombra, 3ª...;
+    OU
+    box-shadow: inset X Y blur espalhado #COR; (aqui o inset determina que a sombra é interna)
+}
+
+-text-shadow
+Mesma coisa que o box-shadow, mas com o texto
+Ex.: elemento{
+    text-shadow: X Y blur #COR; (a cor pode ser o rgba)
+}
