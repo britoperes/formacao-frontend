@@ -1,0 +1,27 @@
+#A partir da aula 4
+
+Seletores de CSS
+- '>'
+
+Atinge o primeiro elemento CSS
+Ex.: main > p{
+    regras pro primeiro filho do elemento pai main
+}
+
+- '+'
+Atinge a primeira ocorrencia após o elemento definido (irmão)
+Ex.:
+
+img + p {
+    regras para o p depois de img
+}
+
+- '~'
+Atinge todas as ocorrencias depois de um elemento
+Ex.: img ~ p {
+    regras pra todos os p's depois de uma img
+}
+
+-':not(condições)
+Exclui todos os elementos que atendem as condições definidas
+Ex.:
